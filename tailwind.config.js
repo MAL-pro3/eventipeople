@@ -4,10 +4,17 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        'playfair': ['Playfair Display', 'serif'],
+        'lato': ['Lato', 'sans-serif'],
+        'great-vibes': ['Great Vibes', 'cursive'],
+        sans: ['Lato', 'sans-serif'],
         serif: ['Playfair Display', 'serif'],
       },
       colors: {
+        gold: '#E88E2E',
+        champagne: '#FAF7F2',
+        'night-blue': '#1C1C2A',
+        'pearl-gray': '#6E6E73',
         amber: {
           50: '#fffbeb',
           100: '#fef3c7',
