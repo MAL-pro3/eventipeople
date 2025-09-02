@@ -1,5 +1,5 @@
 import React from 'react';
-import { Music, Users, Sparkles } from 'lucide-react';
+import { Music, Users, Sparkles, Award } from 'lucide-react';
 
 const TeamSection = () => {
   const team = [
@@ -27,13 +27,13 @@ const TeamSection = () => {
   ];
 
   return (
-    <section id="team" className="py-20 bg-gradient-to-br from-gray-50 to-amber-50">
+    <section id="team" className="py-20 bg-champagne">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 font-serif">
+          <h2 className="text-4xl md:text-5xl font-bold text-night-blue mb-4 font-playfair">
             Il cuore di Eventi People
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-pearl-gray max-w-3xl mx-auto font-lato">
             Tre professionisti, una sola missione: rendere la tua festa indimenticabile
           </p>
         </div>
@@ -55,19 +55,21 @@ const TeamSection = () => {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-800 mb-1">
+                    <h3 className="text-2xl font-bold text-night-blue mb-1 font-playfair">
                       {member.name}
                     </h3>
-                    <p className="text-amber-600 font-semibold">
+                    <p className="text-gold font-semibold font-lato">
                       {member.role}
                     </p>
                   </div>
-                  <div className="p-3 bg-amber-100 rounded-full">
-                    {member.icon}
+                  <div className="p-3 bg-gold/20 rounded-full">
+                    <div className="text-gold">
+                      {member.icon}
+                    </div>
                   </div>
                 </div>
                 
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-pearl-gray leading-relaxed font-lato">
                   {member.description}
                 </p>
               </div>
