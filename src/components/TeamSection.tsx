@@ -1,0 +1,82 @@
+import React from 'react';
+import { Music, Users, Sparkles } from 'lucide-react';
+
+const TeamSection = () => {
+  const team = [
+    {
+      name: "Andrea",
+      role: "DJ Professionista",
+      description: "Esperto di matrimoni e feste private, con un tocco unico per ogni evento",
+      icon: <Music className="w-8 h-8 text-amber-600" />,
+      image: "/images/andrea.jpeg"
+    },
+    {
+      name: "Matteo",
+      role: "Specialista Animazione",
+      description: "Gestione eventi e animazione, sempre pronto a coinvolgere tutti",
+      icon: <Users className="w-8 h-8 text-amber-600" />,
+      image: "/images/matte.JPG"
+    },
+    {
+      name: "Emanuele",
+      role: "Intrattenitore & Vocalist",
+      description: "Energia contagiosa e sorriso che illumina ogni festa",
+      icon: <Sparkles className="w-8 h-8 text-amber-600" />,
+      image: "/images/berni.JPG"
+    }
+  ];
+
+  return (
+    <section id="team" className="py-20 bg-gradient-to-br from-gray-50 to-amber-50">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 font-serif">
+            Il cuore di Eventi People
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Tre professionisti, una sola missione: rendere la tua festa indimenticabile
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {team.map((member, index) => (
+            <div
+              key={index}
+              className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+            >
+              <div className="aspect-square overflow-hidden">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              
+              <div className="p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-800 mb-1">
+                      {member.name}
+                    </h3>
+                    <p className="text-amber-600 font-semibold">
+                      {member.role}
+                    </p>
+                  </div>
+                  <div className="p-3 bg-amber-100 rounded-full">
+                    {member.icon}
+                  </div>
+                </div>
+                
+                <p className="text-gray-600 leading-relaxed">
+                  {member.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default TeamSection;
