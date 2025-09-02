@@ -33,12 +33,12 @@ const ServicesSection = () => {
           {/* Content */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 font-serif">
+              <h2 className="text-4xl md:text-5xl font-bold text-night-blue mb-6 font-playfair">
                 Cosa Facciamo
               </h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-lg text-pearl-gray leading-relaxed font-lato">
                 Ogni evento merita un intrattenimento studiato nei minimi dettagli. 
-                Con <span className="font-semibold text-amber-600">Eventi People</span> creiamo 
+                Con <span className="font-semibold text-gold">Eventi People</span> creiamo 
                 atmosfere uniche, con musica, animazione e momenti che esaltano il giorno 
                 più bello della tua vita.
               </p>
@@ -46,30 +46,30 @@ const ServicesSection = () => {
 
             <div className="space-y-4">
               <div className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-amber-500 rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-gray-600">
-                  <span className="font-semibold">Matrimoni indimenticabili</span> - 
+                <div className="w-2 h-2 bg-gold rounded-full mt-3 flex-shrink-0"></div>
+                <p className="text-pearl-gray font-lato">
+                  <span className="font-semibold text-night-blue">Matrimoni indimenticabili</span> - 
                   Dal primo ballo alle danze di fine serata
                 </p>
               </div>
               <div className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-amber-500 rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-gray-600">
-                  <span className="font-semibold">Feste di compleanno</span> - 
+                <div className="w-2 h-2 bg-gold rounded-full mt-3 flex-shrink-0"></div>
+                <p className="text-pearl-gray font-lato">
+                  <span className="font-semibold text-night-blue">Feste di compleanno</span> - 
                   18esimi e compleanni speciali pieni di energia
                 </p>
               </div>
               <div className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-amber-500 rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-gray-600">
-                  <span className="font-semibold">Eventi privati</span> - 
+                <div className="w-2 h-2 bg-gold rounded-full mt-3 flex-shrink-0"></div>
+                <p className="text-pearl-gray font-lato">
+                  <span className="font-semibold text-night-blue">Eventi privati</span> - 
                   Feste a tema e celebrazioni uniche
                 </p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-2xl">
-              <p className="text-gray-700 italic text-center">
+            <div className="bg-gold/10 p-6 rounded-2xl border border-gold/20">
+              <p className="text-night-blue italic text-center font-great-vibes text-xl">
                 "Noi facciamo vibrare l'energia della festa e trasformiamo 
                 ogni momento in un ricordo prezioso"
               </p>
