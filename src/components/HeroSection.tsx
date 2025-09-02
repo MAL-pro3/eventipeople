@@ -40,31 +40,31 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="block text-white font-serif">Trasforma il tuo</span>
-            <span className="block bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight font-playfair">
+            <span className="block text-white">Trasforma il tuo</span>
+            <span className="block text-gold font-great-vibes text-6xl md:text-8xl">
               evento
             </span>
-            <span className="block text-white font-serif">in un ricordo</span>
-            <span className="block bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
+            <span className="block text-white">in un ricordo</span>
+            <span className="block text-gold font-great-vibes text-6xl md:text-8xl">
               indimenticabile
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl mb-8 text-champagne leading-relaxed max-w-3xl mx-auto font-lato">
             DJ Set, animazione e intrattenimento professionale per matrimoni, 
             feste private e celebrazioni uniche.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="group bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-amber-600 hover:to-amber-700 transition-all transform hover:scale-105 flex items-center space-x-2">
+            <button className="group bg-gold text-night-blue px-8 py-4 rounded-full text-lg font-semibold hover:bg-gold/90 transition-all transform hover:scale-105 flex items-center space-x-2 font-lato">
               <span>Prenota ora la tua festa</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
             
             <button 
               onClick={handlePlayVideo}
-              className="group flex items-center space-x-2 text-white border-2 border-white/30 px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/10 transition-all"
+              className="group flex items-center space-x-2 text-champagne border-2 border-gold/50 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gold/20 transition-all font-lato"
             >
               <Play className="w-5 h-5" />
               <span>Guarda i nostri eventi</span>
