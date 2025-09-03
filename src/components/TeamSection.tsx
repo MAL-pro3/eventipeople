@@ -44,12 +44,17 @@ const TeamSection = () => {
               key={index}
               className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
             >
-              <div className="aspect-square overflow-hidden">
+              <div className="aspect-square overflow-hidden relative">
                 <img
                   src={member.image}
                   alt={member.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
+                {/* Badge PRO */}
+                <div className="absolute top-3 right-3 bg-gold text-white px-3 py-1 rounded-full text-sm font-bold font-lato flex items-center gap-1 shadow-lg">
+                  <Award size={14} />
+                  PRO
+                </div>
               </div>
               
               <div className="p-6">
