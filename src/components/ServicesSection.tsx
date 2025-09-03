@@ -1,13 +1,13 @@
 import React from 'react';
 
 const ServicesSection = () => {
-  const images = [
-    "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg",
+ const images = [
+    "/images/action.JPG",
     "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg",
-    "https://images.pexels.com/photos/1649690/pexels-photo-1649690.jpeg",
+    "/images/action1.JPG",
     "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg",
-    "https://images.pexels.com/photos/1983046/pexels-photo-1983046.jpeg",
-    "https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg"
+    "/images/action2.JPG",
+    "/images/action3.JPG"
   ];
 
   return (
