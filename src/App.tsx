@@ -16,6 +16,7 @@ function App() {
       <StatsSection />
       <ServicesSection />
       <TeamSection />
+      <ReviewsSection />
       <ContactSection />
       <Footer />
     </div>
