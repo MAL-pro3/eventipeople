@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import StatsSection from './components/StatsSection';
 import ServicesSection from './components/ServicesSection';
 import TeamSection from './components/TeamSection';
+import ReviewsSection from './components/ReviewsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
