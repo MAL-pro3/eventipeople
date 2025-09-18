@@ -2,12 +2,12 @@ import React from 'react';
 
 const ServicesSection = () => {
  const images = [
-    "/images/action.JPG",
-    "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg",
+    "/images/festa1.jpeg",
     "/images/action1.JPG",
-    "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg",
+    "/images/festa4.jpeg",
     "/images/action2.JPG",
-    "/images/action3.JPG"
+    "/images/festa2.jpeg",
+    "/images/festa5.jpeg"
   ];
 
   return (
