@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;700&family=Great+Vibes&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-gold: #E88E2E;
+  --color-champagne: #FAF7F2;
+  --color-night-blue: #1C1C2A;
+  --color-pearl-gray: #6E6E73;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--color-champagne);
+  color: var(--color-night-blue);
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-great-vibes {
+  font-family: 'Great Vibes', cursive;
+}
