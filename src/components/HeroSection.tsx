@@ -58,7 +58,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button className="group bg-gold text-night-blue px-8 py-4 rounded-full text-lg font-semibold hover:bg-gold/90 transition-all transform hover:scale-105 flex items-center space-x-2 font-lato">
-              <span>Prenota ora la tua festa</span>
+              <span>Prenota ora il tuo evento</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
             
