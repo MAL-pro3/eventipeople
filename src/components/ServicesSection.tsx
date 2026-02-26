@@ -7,7 +7,7 @@ const ServicesSection = () => {
     "/images/festa4.jpeg",
     "/images/action2.JPG",
     "/images/festa2.jpeg",
-    "/images/festa5.jpe"
+    "/images/festa5.jpeg"
   ];
 
   return (
